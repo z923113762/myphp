@@ -5,6 +5,7 @@ use yii\db\Migration;
 
 class m130524_201442_init extends Migration
 {
+    const TBL_NAME="{{%user}}";
     public function up()
     {
         $tableOptions = null;
